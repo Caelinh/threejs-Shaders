@@ -5,7 +5,7 @@ const isCodeSandbox = !!process.env.SANDBOX_URL
 export default {
     root: "src/",
     publicDir: "../static/",
-    base: "/threejs-Shaders/",
+    base: "./",
     server:
     {
         host: true,
